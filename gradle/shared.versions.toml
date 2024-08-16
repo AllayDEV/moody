@@ -1,0 +1,17 @@
+[versions]
+kotlin = "2.0.0"
+minotaur = "2.8.7"
+google-devtools = "2.0.0-1.0.23"
+johnrengelman-shadow = "8.1.1"
+
+squareup-moshi = "1.15.1"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+modrinth-minotaur = { id = "com.modrinth.minotaur", version.ref = "minotaur" }
+google-devtools = { id = "com.google.devtools.ksp", version.ref = "google-devtools" }
+johnrengelman-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "johnrengelman-shadow" }
+
+[libraries]
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
+squareup-moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "squareup-moshi" }
